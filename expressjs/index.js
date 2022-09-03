@@ -33,6 +33,6 @@ app.post("/login",(req, res)=>{
     }
 })
 app.all("*", (req, res)=>{
-    res.status(202).send("no such route")
+    res.status(404).send("no such route")
 })
 app.listen(3001, ()=>{console.log("server started")})
