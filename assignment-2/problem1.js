@@ -5,7 +5,7 @@ const bp=require("body-parser")
 app.use(bp.json())
 app.post("/student/add", (req,res)=>{
        body=req.body
-       fs.writeFile("student.json", JSON.stringify(body), err => {
+       fs.appendFile("student.json", JSON.stringify(body), err => {
               if (err) 
               {
                      throw err
