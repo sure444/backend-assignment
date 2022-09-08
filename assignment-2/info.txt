@@ -1,0 +1,7 @@
+Add student api link- http://localhost:8080/student/add
+
+Get details api link- localhost:8080/student/getDetails
+
+student list api link- localhost:8080/student/studentsList
+
+studentsList heroku api link https://express-assignment-problem-2.herokuapp.com/student/studentsList
